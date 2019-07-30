@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practica_1</title>
+    <link rel="stylesheet" href="stilo.css">
+  </head>
+
+  <body>
+    <header align:"center">
+      <img src="logo_usac.png" alt="" class="logoo" align:"center">
+      <h1>Analizador de cadenas de texto</h1>
+
+    </header>
+    <!-- esta caja 1 en ella estara la caja de texto y el boton para analizar -->
+    <div class="caja1" >
+      <br></br>
+      <form class="caja" action="index.html" method="post">
+        <label for="lname">   Escribe la Palabra: </label>
+        <input type="text" name="" value="" placeholder="Escribe algo" id="palabra">
+        <button type="button" name="button" onclick="capturar()">Analizar</button>
+      </form>
+      <br></br>
+    </div>
+    <!-- en esta parte van la caja de instrucciones -->
+      <aside class="descripcion" >
+        <div class="info" >
+          <h1>Instrucciones</h1>
+          <p>Puedes escribir caracateres, palabras o numeros,
+             el analizador determinala si el lexico es correcto, y el resultado sera enviado a la tabla. HAZ CLICK para analizar</p>
+        </div>
+      </aside>
+      <!-- Aqui va el listado de palabras ingresadas -->
+      <section class="caja2">
+        <article class="list">
+            <p>Listado de Palabras:</p>
+            <table class="tab" id="datos">
+
+            </table>
+            <ul>
+                <div id="listado"></div>
+            </ul>
+        </article>
+      </section>
+      <!-- se llama al javascript -->
+<script type="text/javascript" src="interaccion.js"></script>
+  </body>
+</html>

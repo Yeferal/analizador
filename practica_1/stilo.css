@@ -1,0 +1,64 @@
+body{
+  background: #395d6e;
+}
+header{
+  color:white;
+  text-align: center;
+  align-content: center;
+  text-shadow: 1px 1px 0px;
+}
+.logoo{
+  width: 200px;
+  height: 200px;
+  align-content: center;
+}
+.caja1{
+  margin: 20px;
+  width: 400px;
+  background: #0da36c;
+  padding: 10px;
+  border: 2px solid black;
+  position: absolute;
+  top: 290px;
+  left: 27%;
+}
+form{
+  align-content: center;
+  width: 70%;
+  margin: 20px;
+  padding: 20px;
+
+}
+
+.descripcion{
+  position: absolute;
+  top: 300px;
+  left: 48%;
+  align-items: center;
+  font-family: cursive;
+  width: 500px;
+  background: orange;
+  margin: 20px 50px;
+  padding: 10px;
+  border: 2px solid black;
+
+}
+.caja2{
+  position: absolute;
+  top: 550px;
+  left: 47%;
+  background: #b7f460;
+  border: 2px solid black;
+}
+table{
+  text-align: center;
+  align-self: center;
+
+}
+table td{
+  text-align: center;
+  border-bottom:1px solid #000;
+}
+table tr:hover{
+  background: #cff;
+}
